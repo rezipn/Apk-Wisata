@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/boostrap/css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/images/logo.png" alt="">
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Beyond The explorer of the world
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <div class="div section-success d-flex align-items-center">
+      <div class="col text-center">
+        <img src="frontend/images/suratt.png" alt="">
+        <h1>Yay! Success</h1>
+        <p>
+          We've sent you email for trip instuctions
+          <br>
+          Please read it as well
+        </p>
+        <a href="index.html" class="btn btn-home-page mt-3 px-5">
+          Home Page
+        </a>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="frontend/libraries/jquery/jquery-3.4.1.js"></script>
+    <script src="frontend/libraries/boostrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          XOffset: 15
+        });
+
+        $('.datepicker').datepicker({
+          uiLibrary: 'bootstrap4',
+          icons:{
+            rightIcon: '<img src="frontend/images/calendar.png" width="20" height="20" />'
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

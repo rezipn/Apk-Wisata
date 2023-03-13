@@ -469,3 +469,31 @@ header {
     }
   }
 }
+
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #2f4f4f;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #2f4f4f;
+    color: #fff;
+
+    &:hover {
+      background-color: #6c8e8e;
+      color: #fff;
+    }
+  }
+}

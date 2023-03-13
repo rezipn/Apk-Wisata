@@ -360,4 +360,27 @@ header .btn-get-started:hover {
 .section-details-content .btn-join-now:hover {
   background-color: #ffaa69;
   color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #2f4f4f;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #2f4f4f;
+  color: #fff;
+}
+.section-success .btn-home-page:hover {
+  background-color: #6c8e8e;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
