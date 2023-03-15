@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/boostrap/css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="index.html" class="navbar-brand">
+            <img src="frontend/images/logo.png" alt="">
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Beyond The explorer of the world
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">Paket Travel</li>
+                  <li class="breadcrumb-item">Details</li>
+                  <li class="breadcrumb-item active">Checkout</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Who is going?</h1>
+                <p>Trip to ubud, Bali, Indonesia</p>
+                <div class="attendee">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td>Picture</td>
+                        <td>Name</td>
+                        <td>Nasioanlity</td>
+                        <td>Visa</td>
+                        <td>Passport</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><img src="frontend/images/header2.jpg" class="rounded-circle" width="60" height="60"></td>
+                        <td class="align-middle">
+                          Rezi Palifta
+                        </td>
+                        <td class="align-middle">
+                          CN
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Active
+                        </td>
+                        <td class="align-middle">
+                          <a href=""> 
+                          <img src="frontend/images/x.png" width="25" height="25" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><img src="frontend/images/header2.jpg" class="rounded-circle" width="60" height="60"></td>
+                        <td class="align-middle">
+                          Rezi Palifta
+                        </td>
+                        <td class="align-middle">
+                          CN
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Active
+                        </td>
+                        <td class="align-middle">
+                          <a href=""> 
+                          <img src="frontend/images/x.png" width="25" height="25" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form action="#" class="form-inline">
+                    <label for="inputUsername" class="sr-only">Name</label>
+                    <input type="text" name="inputUsername" class="form-control mb-2 mr-sm-2" id="inputUsername" placeholder="Username"">
+                    <label for="inputVisa" class="sr-only">Visa</label>
+                    <select name="inputVisa" id="inputVisa" class="custom-select mb-2 mr-sm-2">
+                      <option value="VISA" selected>VISA</option>
+                      <option value="30 Days">30 Days</option>
+                      <option value="N/A">N/A</option>
+                    </select>
+
+                    <label for="doePassport" class="sr-only">DOE Passport</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input type="text" class="form-control datepicker" id="doePassport" placeholder="doePassport">
+                    </div> 
+
+                    <button type="submit" class="btn btn-add-now mb-2 px-4">Add Now</button>
+                  </form>
+                  <h3 class="mt-2 mb-0">
+                    Note
+                  </h3>
+                  <p class="disclaimer mb-0">You are only able  to invite members that has registered in Rez.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-details card-right">
+                <h2>Checkout Informations</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Members</th>
+                    <td width="50%" class="text-right">
+                      2 Person
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Additional VISA</th>
+                    <td width="50%" class="text-right">
+                      $ 160,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Trip Price</th>
+                    <td width="50%" class="text-right">
+                      $ 80,00 / Person
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Sub Total</th>
+                    <td width="50%" class="text-right">
+                      $ 280,00
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Total (+Unique)</th>
+                    <td width="50%" class="text-right text-total">
+                      <span class="text-blue">$ 279,</span>
+                      <span class="text-orange">33</span>
+                    </td>
+                  </tr>
+                </table>
+                <hr/>
+                <h2>Payment Instruction</h2>
+                <p class="payment-instructions">
+                  Please complete your payment before to continue the wonderful trip
+                </p>
+                <div class="bank">
+                  <div class="bank-item pb-3">
+                    <img src="frontend/images/credit-card.png" alt="" class="bank-image">
+                  <div class="div description">
+                    <h3>PT Rez ID</h3>
+                    <p>
+                      087718147346
+                      <br>
+                      Bank Central Asia
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                  <div class="bank-item pb-3">
+                    <img src="frontend/images/credit-card.png" alt="" class="bank-image" width="30px" height="30px">
+                  <div class="div description">
+                    <h3>PT Rez ID</h3>
+                    <p>
+                      087718147346
+                      <br>
+                      Bank Central Asia
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="join-container">
+                <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">
+                  I Have Made Payment
+                </a>
+              </div>
+              <div class="text-center mt-3">
+                <a href="#" class="text-muted">Cancel Booking</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Community</a></li>
+                  <li><a href="">Social Media kit</a></li>
+                  <li><a href="">Affliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Community</a></li>
+                  <li><a href="">Affliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Social Media kit</a></li>
+                  <li><a href="">Affliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Community</a></li>
+                  <li><a href="">Social Media kit</a></li>
+                  <li><a href="">Affliate</a></li>
+                  <li><a href="">Affliate</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row border-top justify-content-center align-items-center pt-4">
+          <div class="col-auto text-gray-500 font-weight-light">2023 Copyright Rez - All rights reserved - Made in Demak</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="frontend/libraries/jquery/jquery-3.4.1.js"></script>
+    <script src="frontend/libraries/boostrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          XOffset: 15
+        });
+
+        $('.datepicker').datepicker({
+          uiLibrary: 'bootstrap4',
+          icons:{
+            rightIcon: '<img src="frontend/images/calendar.png" width="20" height="20" />'
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

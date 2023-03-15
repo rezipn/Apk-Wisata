@@ -1,0 +1,7 @@
+﻿/*
+ * Gijgo Tree v2.0.0-alpha-1
+ * http://gijgo.com/tree
+ *
+ * Copyright 2014, 2023 gijgo.com
+ * Released under the MIT license
+ */
